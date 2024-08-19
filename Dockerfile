@@ -19,6 +19,17 @@ RUN \
   DEBIAN_FRONTEND=noninteractive \
   apt-get install -y --no-install-recommends \
     chromium \
+    git \
+    vim \
+    fonts-noto-cjk \
+    cmake \
+    gcc \
+    g++ \
+    gfortran \
+    ark \
+    p7zip-full \
+    unrar \
+    zip \
     chromium-l10n \
     dolphin \
     gwenview \
