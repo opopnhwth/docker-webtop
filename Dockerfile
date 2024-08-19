@@ -19,6 +19,7 @@ RUN \
   DEBIAN_FRONTEND=noninteractive \
   apt-get install -y --no-install-recommends \
     chromium \
+    zsh \
     git \
     vim \
     fonts-noto-cjk \
