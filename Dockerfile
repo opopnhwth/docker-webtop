@@ -19,11 +19,23 @@ RUN \
   DEBIAN_FRONTEND=noninteractive \
   apt-get install -y --no-install-recommends \
     chromium \
+    zsh \
+    git \
+    vim \
+    fonts-noto-cjk \
+    cmake \
+    gcc \
+    g++ \
+    gfortran \
+    p7zip-full \
+    unrar \
+    zip \
     chromium-l10n \
     libxfce4ui-utils \
     mousepad \
     tango-icon-theme \
     thunar \
+    thunar-archive-plugin \
     xfce4-appfinder \
     xfce4-panel \
     xfce4-session \
